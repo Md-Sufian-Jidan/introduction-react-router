@@ -1,0 +1,14 @@
+.users {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap : 10px
+}
+.margin {
+    margin: 0px 50px;
+} 
+nav a.active{
+    text-decoration: underline;
+    font-weight: 800;
+    color: peru;
+    background-color: #fff;
+}
